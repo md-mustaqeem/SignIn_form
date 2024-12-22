@@ -1,0 +1,35 @@
+@font-face{
+      font-family: 'calibari';
+      src: url("font/calibri-bold-italic.ttf") format("ttf");
+}
+body{
+      font-family:'calibari';
+}
+.dcontainer{
+      height: 700px;
+}
+.divrow > div:nth-child(1){
+      background-color: white
+}
+.divrow > div:nth-child(2){
+      background-color: rgb(20, 20, 55)
+}
+.divrow input[type="email"],.divrow input[type="password"]{
+      box-shadow: none;
+}
+.afog{
+      color: darkblue;
+}
+a:hover{
+      color: yellow;
+}
+.form-check-input:checked{
+      background-color: darkslategray;
+      color: darkslategray;
+      box-shadow: none;
+}
+.secondgrid
+{
+      padding-top: 200px;
+      color: white;
+}
